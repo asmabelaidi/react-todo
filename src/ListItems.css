@@ -1,0 +1,30 @@
+.list{
+    background-color: rgb(84, 150, 211);
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-bottom: 10px ;
+}
+.list p{
+    color: azure;
+    padding: 10px;
+    position: relative;
+}
+.list p span{
+   position:absolute;
+   right: 10px;
+   cursor: pointer;
+}
+.my-icon{
+    margin: 5px;
+    font-size: 15px;
+}
+.list p input{
+    background-color: transparent !important;
+    border: 0;
+    color:  azure;;
+ }
+ .list p input:focus{
+     outline: none;
+ }
